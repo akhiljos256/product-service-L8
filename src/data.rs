@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Google Pixel 8 Pro".to_string(),
+            price: 899.99,
+            description: "Capture stunning photos and experience pure Android with the Google Pixel 8 Pro, featuring AI-powered camera features and a smooth, adaptive display.".to_string(),
+            image: "/google_pixel_8_pro.jpg".to_string(),
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Lenovo ThinkPad X1 Carbon".to_string(),
+            price: 1399.99,
+            description: "The Lenovo ThinkPad X1 Carbon is a lightweight yet powerful laptop, perfect for business professionals on the go.".to_string(),
+            image: "/lenovo_thinkpad_x1_carbon.jpg".to_string(),
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "JBL Flip 6 Bluetooth Speaker".to_string(),
+            price: 129.99,
+            description: "Take your music anywhere with the JBL Flip 6. This waterproof speaker delivers powerful bass and crystal-clear sound.".to_string(),
+            image: "/jbl_flip_6.jpg".to_string(),
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "ASUS ROG Strix Gaming Laptop".to_string(),
+            price: 1999.99,
+            description: "Dominate your games with the ASUS ROG Strix Gaming Laptop, equipped with the latest RTX graphics and high-refresh-rate display.".to_string(),
+            image: "/asus_rog_strix.jpg".to_string(),
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Fitbit Charge 5 Fitness Tracker".to_string(),
+            price: 149.99,
+            description: "Track your health and fitness goals with the Fitbit Charge 5, offering heart rate monitoring, sleep tracking, and stress management tools.".to_string(),
+            image: "/fitbit_charge_5.jpg".to_string(),
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "LG C3 55-inch OLED TV".to_string(),
+            price: 1799.99,
+            description: "Immerse yourself in lifelike visuals with the LG C3 OLED TV, offering perfect blacks, vivid colors, and a sleek design.".to_string(),
+            image: "/lg_c3_oled_tv.jpg".to_string(),
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "HP Envy Photo 7855 Printer".to_string(),
+            price: 199.99,
+            description: "Print stunning photos and documents with the HP Envy Photo 7855, featuring wireless connectivity and an easy-to-use interface.".to_string(),
+            image: "/hp_envy_7855.jpg".to_string(),
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Corsair K70 RGB Pro Keyboard".to_string(),
+            price: 159.99,
+            description: "Enhance your gaming setup with the Corsair K70 RGB Pro, featuring mechanical keys, customizable lighting, and durable construction.".to_string(),
+            image: "/corsair_k70_rgb_pro.jpg".to_string(),
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Eufy RoboVac G30 Edge".to_string(),
+            price: 279.99,
+            description: "Keep your floors spotless with the Eufy RoboVac G30 Edge, a powerful robot vacuum with smart navigation.".to_string(),
+            image: "/eufy_robovac_g30.jpg".to_string(),
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
-        }
+            name: "Canon EOS R50 Mirrorless Camera".to_string(),
+            price: 899.99,
+            description: "Capture your moments with precision using the Canon EOS R50, a compact mirrorless camera perfect for both beginners and enthusiasts.".to_string(),
+            image: "/canon_eos_r50.jpg".to_string(),
+        },
     ]
 }
